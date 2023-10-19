@@ -1,0 +1,15 @@
+# Search
+GET http://localhost:3000/search/
+GET http://localhost:3000/search/movie?q=Titanic
+GET http://localhost:3000/search/tv?q=Breaking
+GET http://localhost:3000/search/person?q=Leonardo
+GET http://localhost:3000/search/episode?q=Pilot
+GET http://localhost:3000/search/review?q=Titanic
+GET http://localhost:3000/search/award?q=Best
+
+# Title
+GET http://localhost:3000/title/1
+GET http://localhost:3000/title/4/episodes
+GET http://localhost:3000/title/1/cast
+GET http://localhost:3000/title/1/reviews
+GET http://localhost:3000/title/1/awards
